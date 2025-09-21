@@ -1,0 +1,12 @@
+Team has one member - Ed di Girolamo
+Answer 1:
+I am a software engineer who works on a data management team. One of the products I service integrates into 
+Google Big Query and I have serviced it for about 1.5 years total time. 
+
+Answer 2:
+I have worked with Google Cloud UI for about 3 years.
+
+Answer 3:
+This was a great hackathon that provided the basics for getting started with AI in a cloud DBMS like Big Query.
+Having the $300 credit was essential as well as public data.  For 30 days and spare time this was a fun way to test out
+SQL and new BigQuery functions.
