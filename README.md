@@ -42,6 +42,9 @@ After building a unified dataset of lightning strikes and home values, we calcul
 We run several UNION ALL statements to combine in a new table lightning strike and housing price forcasts.
 Using BigQuery’s AI.FORECAST, we projected **state-level lightning strike totals** one year into the future.
 Similarly, we applied AI.FORECAST to the housing dataset to project **average state-level home values** for the next year.
+
+*Disclaimer There are 3 SQL code snippets here where the first is everything in one Query which should work, but
+I recieved erroneous results some of the time (NAN in some records) so I split the queries into 3_1, 3_2, and 3_3, running the two forcasting and joins respectively.
 ---
 
 
@@ -49,6 +52,7 @@ Similarly, we applied AI.FORECAST to the housing dataset to project **average st
 - Lightning strikes and housing values show a consistent **negative correlation** across states.  
 - Forecasting provides a look at **how these two variables may evolve next year**.  
 - This project highlights the ease of combining **SQL analytics** and **time-series forecasting** directly in BigQuery.  
+- The correlation trend continues in the forcasts with the highest home values going to Texas, and lightning strikes to Wisconsin.  Which was different from historical Data.
 
 ---
 
