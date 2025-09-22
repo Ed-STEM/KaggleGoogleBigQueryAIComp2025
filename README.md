@@ -52,7 +52,7 @@ I recieved erroneous results some of the time (NAN in some records) so I split t
 - Lightning strikes and housing values show a consistent **negative correlation** across states.  
 - Forecasting provides a look at **how these two variables may evolve next year**.  
 - This project highlights the ease of combining **SQL analytics** and **time-series forecasting** directly in BigQuery.  
-- The correlation trend continues in the forcasts with the highest home values going to Texas, and lightning strikes to Wisconsin.  Which was different from historical Data.
+- The correlation trend continues in the forcasts with the highest strikes going to Texas, and home values to California.  Which was similar to historical Data.
 
 ---
 
